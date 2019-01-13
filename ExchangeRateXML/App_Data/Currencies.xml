@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--This file isn't used, just used as an FYI-->
+<Currencies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Currency>
+    <Name>United States Dollar</Name>
+    <Code>USD</Code>
+    <ExchangeRate>1</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Australian Dollar</Name>
+    <Code>AUD</Code>
+    <ExchangeRate>1.08</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>New Zealand Dollar</Name>
+    <Code>NZD</Code>
+    <ExchangeRate>1.16</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Singapore Dollar</Name>
+    <Code>SGD</Code>
+    <ExchangeRate>1.27</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>British Pound</Name>
+    <Code>GBP</Code>
+    <ExchangeRate>0.60</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Euro</Name>
+    <Code>EUR</Code>
+    <ExchangeRate>0.72</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>South Korean Won</Name>
+    <Code>KRW</Code>
+    <ExchangeRate>1075.22</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Danish Krone</Name>
+    <Code>DKK</Code>
+    <ExchangeRate>5.41</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Swedish Krone</Name>
+    <Code>SEK</Code>
+    <ExchangeRate>6.46</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Norwegian Krone</Name>
+    <Code>NOK</Code>
+    <ExchangeRate>6.05</ExchangeRate>
+  </Currency>
+</Currencies>

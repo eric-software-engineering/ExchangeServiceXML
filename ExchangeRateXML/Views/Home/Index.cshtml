@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ExchangeRateXML.Models.Currency>
+@{
+  ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+  <p>High speed, asynchronous currency conversion</p>
+  <div class="row spacer">
+    <div id="from-group" class="btn-group" data-toggle="buttons">
+      <label class="btn btn-info custom-width">
+        From
+      </label>
+      @foreach (var item in Model)
+      {
+        <label class="btn btn-primary">
+          <input type="radio" name="from-group" value="@item.Code"> @item.Code
+        </label>
+      }
+    </div>
+  </div>
+  <div class="row spacer">
+    <div id="to-group" class="btn-group" data-toggle="buttons">
+      <label class="btn btn-info custom-width">
+        To
+      </label>
+      @foreach (var item in Model)
+      {
+        <label class="btn btn-primary">
+          <input type="radio" name="to-group" value="@item.Code"> @item.Code
+        </label>
+      }
+    </div>
+  </div>
+  <div class="row spacer">
+    <div class="input-group">
+      <span class="input-group-addon custom-width" id="basic-addon1">Amount</span>
+      <input type="number" class="form-control" placeholder="Amount" name="quantity" min="0" maxlength="15" max="10000000" aria-describedby="basic-addon1" id="amount" />
+    </div>
+  </div>
+  <div class="row spacer">
+    <div class="alert alert-success" role="alert" id="result">Please make a valid selection. Two decimal places max for the amount.</div>
+  </div>
+</div>
+
+<script src="~/Scripts/ExchangeService.js"></script>
+
+

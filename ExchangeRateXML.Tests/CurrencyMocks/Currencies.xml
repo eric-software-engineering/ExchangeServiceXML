@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--This file isn't used, just used as an FYI-->
+<Currencies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Currency>
+    <Name>United States Dollar</Name>
+    <Code>USD</Code>
+    <ExchangeRate>1</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Australian Dollar</Name>
+    <Code>AUD</Code>
+    <ExchangeRate>2</ExchangeRate>
+  </Currency>
+  <Currency>
+    <Name>Euro</Name>
+    <Code>EUR</Code>
+    <ExchangeRate>3</ExchangeRate>
+  </Currency>
+</Currencies>
